@@ -1,0 +1,38 @@
+
+#inputCalculadora{
+    font-size: 24px;
+    width: 90%;
+    height: 70px;
+    text-align: right;
+    margin: 30px auto;
+}
+.areaCalculadora{
+    background-color: rgb(8, 12, 36);
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+}
+.row div{
+    padding: 0;
+    margin-bottom: 10px;
+}
+.row div button{
+    width: 100%;
+}
+button.btn{
+    color: white;
+    background-color: rgb(49, 61, 73);
+    max-width: 50px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+button.btn:hover{
+    background-color: rgb(49, 61, 73,0.5);
+    color: white;
+}
+button#btnResultado{
+    background-color: #87ceeb;
+    color: black;
+}
